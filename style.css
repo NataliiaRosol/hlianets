@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li{
+  list-style: none;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+.container{
+  max-width: 1565px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+}
+.section-title{
+  font-size: 44px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+/* TOP */
+.banner-wrapper{
+  background-image: url(img/bg-top.png);
+}
+.header,
+.join-info{
+  font-size: 20px;
+}
+.header-inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 17px;
+  padding-bottom: 16px;
+}
+.menu-list{
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.header-details{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.header-details-links{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.working-hours{
+  font-size: 16px;
+}
+.header-details-phone{
+  font-size: 26px;
+  font-weight: bold;
+  position: relative;
+}
+.details-contacts-info{
+  display: flex;
+  align-items: center;
+}
+
+/* JOIN */
+.join{
+  background-image: url(img/bg-banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.join-inner{
+  padding-top: 100px;
+  padding-bottom: 47px;
+  position: relative;
+}
+.join-info{
+  font-weight: bold;
+  max-width: 1063px;
+  
+}
+.join-info-header{
+  font-size: 90px;
+  line-height: 110%;
+}
+.join-info-text{
+  margin-top: 20px;
+  line-height: 150%;
+  max-width: 950px;
+  margin-bottom: 40px;
+}
+.join-info-button{
+  display: inline-block;
+  padding: 20px 67px;
+  border-radius: 5px;
+  background: linear-gradient(60deg, #FFDF00, #FFB800);
+  margin-bottom: 231px;
+  cursor: pointer;
+}
+.join-info-navigation{
+  display: block;
+  margin-bottom: 7px;
+}
+.join-image{
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+}
+.join-image img{
+  max-width: 667px;
+}
+.join-more{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.join-more-button{
+  display: block;
+  margin-bottom: 16px;
+}
+
+/* REVIEW */
+.review-inner{
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+.review-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.review-info-img{
+  max-width: 900px;
+  border-radius: 10px;
+}
+.review-info-text li:nth-child(1),
+.review-info-text li:nth-child(2),
+.review-info-text li:nth-child(3){
+  margin-bottom: 10px;
+}
+
+
+.review-text-bold{
+  font-weight: bold;
+}
+
+
+
+@media screen and (max-width: 1680px) {
+ 
+  .menu-list{
+    gap: 30px;
+  }
+}
+
